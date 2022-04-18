@@ -1,0 +1,87 @@
+.order {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  .content {
+    .product-list {
+      .product-item {
+        display: flex;
+        padding: 1em;
+        border-radius: 5px;
+        background: rgb(238, 238, 238);
+        margin-top: 1em;
+        .img {
+          width: 200px;
+          height: 150px;
+          overflow: hidden;
+          img {
+            width: 100%;
+          }
+        }
+        .detail {
+          padding-left: 1em;
+          width: 70%;
+          flex-grow: 1;
+          .title {
+            margin: 0;
+            font-size: 1.2rem;
+            height: 1.3em;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+          }
+          .text {
+            margin: 0;
+            padding-top: 3px;
+          }
+        }
+      }
+    }
+    .order {
+        position: sticky;
+        top: 3em;
+      .total-money {
+        margin-top: 1em;
+        padding: 1em;
+        border-radius: 5px;
+        background: rgb(238, 238, 238);
+        .title {
+          font-size: 1.2rem;
+        }
+        .text {
+          font-size: 2rem;
+          color: rgb(238, 41, 41);
+          margin: 0;
+          font-weight: bold;
+        }
+      }
+      .contact {
+        margin-top: 1em;
+        background-size: cover;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 400px;
+        position: relative;
+        border: none;
+        background-color: $color-secondary;
+        .title {
+          font-size: 1.1rem;
+          font-weight: bold;
+        }
+        .text {
+          font-size: 1rem;
+          text-shadow: none;
+          font-weight: normal;
+        }
+        input {
+          font-size: 0.8rem;
+          margin-top: 0.5em;
+        }
+        textarea {
+          margin-top: 0.5em;
+          resize: none;
+        }
+      }
+    }
+  }
+}
