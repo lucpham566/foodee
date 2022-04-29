@@ -28,6 +28,9 @@ ul {
   list-style: none;
 }
 
-.noidung-trang{
-  background-color: rgb(243, 243, 243);
+
+input {
+  &:focus {
+    outline: none;
+  }
 }
